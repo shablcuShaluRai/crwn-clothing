@@ -13,7 +13,10 @@ function App() {
   return (
     <div className="App">
       <Route exact path="/" component={Homepage} />
-      <Route path="/hats" component={HatsPage} />
+      <Route exact path="/shop/hats" component={HatsPage} />
+      <Route exact path="/shop/hats" component={HatsPage} />
+      <Route exact path="/shop/hats" component={HatsPage} />
+      <Route exact path="/shop/hats" component={HatsPage} />
     </div>
   );
 }
